@@ -5,12 +5,12 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
 video: mountains.mp4 # add banner video. Add your video file to the folder video
-banner-title: # add banner title
+banner-title: randomshutterx # add banner title
 banner-desc: # add banner description
 
 # Author settings
@@ -48,7 +48,7 @@ plugins_dir:
   - jekyll-paginate
   - jekyll-sitemap
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
