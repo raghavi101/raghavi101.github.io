@@ -4,18 +4,24 @@ layout: default
 {% include header.html %}
 
 <main class="post_content">
+  <style>
+    iframe[src*="ads-iframe"] { display: none; }
+  </style>
+
   <article class="post">
     <header>
       <div class="post_image">
-        <img src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+        <img id="im" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+        <i id = "im1" class="fa fa-chevron-down"></i>
       </div>
-      <div class="post_description">
-        <p class="post_meta">{{page.date | date: '%Y, %b %d'}}</p>
-        <h1 class="post_title">{{page.title}}</h1>
-      </div>
+
     </header> <!-- End Header -->
 
     <div class="entry_content">
+      <div class="post_description">
+        <h1>{{page.title}}</h1>
+        <p >{{page.date | date: '%Y, %b %d'}}</p>
+      </div>
       {{page.content | markdownify}}
     </div>
     
@@ -36,6 +42,27 @@ layout: default
       </footer>
     </div>
   </article> <!-- End Section Post -->
+  <script>
+    var imd = document.getElementById("im1");
+    var im = document.getElementById("im");
+    var full = 0;
+
+    imd.onclick = function() {
+      console.log(full)
+      if (full == 1) {
+        im.style.maxHeight = "600px";
+        imd.classList.add("fa-chevron-down");
+        imd.classList.remove("fa-chevron-up");
+        full = 0;
+      }
+      else{
+        im.style.maxHeight = "100%";
+        imd.classList.remove("fa-chevron-down");
+        imd.classList.add("fa-chevron-up");
+        full = 1;
+      }
+    }
+  </script>
 
   <section class="author cf">
     <div class="post_wrapper">
