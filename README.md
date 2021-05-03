@@ -4,26 +4,35 @@ Bef - Blog Enjoy Freedom is a responsive jekyll theme which created to be simple
 
 ## Demo
 
-Check the theme in action [Demo](https://artemsheludko.github.io/bef/)
+Check the theme in action [Demo](https://raghavi101.github.io)
 
 The main page would look like this:
 
-![Main page preview](https://github.com/artemsheludko/bef/blob/master/assets/img/bef_main_page.jpg?raw=true)
+![Main page preview](https://github.com/raghavi101/raghavi101.github.io/blob/master/assets/img/main_page.jpg?raw=true)
 
 The post page would look like this:
 
-![Post page preview](https://github.com/artemsheludko/bef/blob/master/assets/img/bef_post.jpg?raw=true)
+![Post page preview](https://github.com/raghavi101/raghavi101.github.io/blob/master/assets/img/post_page.jpg?raw=true)
+
+The contact page would look like this:
+
+![Contact page preview](https://github.com/raghavi101/raghavi101.github.io/blob/master/assets/img/contact_page.jpg?raw=true)
+
+The about page would look like this:
+
+![Contact page preview](https://github.com/raghavi101/raghavi101.github.io/blob/master/assets/img/about_page.jpg?raw=true)
+
 
 ## Features
 
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
+- [Google Fonts](https://fonts.google.com/) : Font integration
+- [Font Awesome](http://fontawesome.io/) : Font integration
+- [Disqus](https://disqus.com/) : Comments and reaction integration
+- [MailChimp](https://mailchimp.com/) : Newsletter integration
+- [Formspree!](https://formspree.io/) : Contact form integration
+- [Analytics](https://analytics.google.com/analytics/web/) : Blog page analytics
 - [Vide](http://vodkabears.github.io/vide/)
-- [Disqus](https://disqus.com/)
-- [MailChimp](https://mailchimp.com/)
-- [Formspree!](https://formspree.io/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- Share Buttons, Recent Post, Section Author, Contact and more...
+- Share Buttons, Recent Post, Section Author, Contact and more
 
 
 ## License
