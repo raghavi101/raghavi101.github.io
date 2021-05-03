@@ -25,15 +25,8 @@ The post page would look like this:
 - [Analytics](https://analytics.google.com/analytics/web/)
 - Share Buttons, Recent Post, Section Author, Contact and more...
 
-## Installation:
-
-Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
 ## License
 
 GNU General Public License v3.0
 
-## Donate
-
-<p>If you like the themes that I create you can become my sponsor on <a href="https://www.patreon.com/artemsheludko" target="_blank">Patreon</a>.
-<p align="center"><b>Thank you for your support ❤️</b></p>
