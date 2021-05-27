@@ -1,7 +1,7 @@
 # Responsive Picture Digest
 
 randomshutter.me - a blog page with articulate and modular design which makes it user friendly for the audience as well as the author/blogger.
-It is built to be highly responsive over a huge range of devices. All of it's integrations make it a valuable web page.
+It is built to be highly responsive over a huge range of devices. All of its integrations make it a valuable web page.
 
 ## Demo
 
